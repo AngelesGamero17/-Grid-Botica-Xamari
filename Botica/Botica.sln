@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Botica.Android", "Botica\Botica.Android\Botica.Android.csproj", "{545A1FE8-D6A8-4C38-8C6B-16DE0E965B3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Botica", "Botica\Botica\Botica.csproj", "{772B0EEC-BA47-42AE-A392-2E208BD3DBC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{545A1FE8-D6A8-4C38-8C6B-16DE0E965B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545A1FE8-D6A8-4C38-8C6B-16DE0E965B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545A1FE8-D6A8-4C38-8C6B-16DE0E965B3B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{545A1FE8-D6A8-4C38-8C6B-16DE0E965B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545A1FE8-D6A8-4C38-8C6B-16DE0E965B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545A1FE8-D6A8-4C38-8C6B-16DE0E965B3B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{772B0EEC-BA47-42AE-A392-2E208BD3DBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772B0EEC-BA47-42AE-A392-2E208BD3DBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772B0EEC-BA47-42AE-A392-2E208BD3DBC3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{772B0EEC-BA47-42AE-A392-2E208BD3DBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772B0EEC-BA47-42AE-A392-2E208BD3DBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772B0EEC-BA47-42AE-A392-2E208BD3DBC3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EE314CE-D9F7-4CEF-96AA-86C6ECEBB9FE}
+	EndGlobalSection
+EndGlobal

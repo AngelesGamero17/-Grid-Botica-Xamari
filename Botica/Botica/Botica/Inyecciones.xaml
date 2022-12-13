@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Botica.Inyecciones"
+             Title="Inyecciones">
+    <ContentPage.Content>
+        <ScrollView Margin="15">
+            <StackLayout>
+                <Frame
+                    BackgroundColor="blue"
+                    CornerRadius="15">
+                    <Label
+                        Text="Lista de Inyecciones"
+                        TextColor="White"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"></Label>
+                </Frame>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Nombre"
+                           TextColor="Black"
+                           Grid.Row="0"
+                           Grid.Column="0"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="Imagen"
+                           TextColor="Black"
+                           Grid.Row="0"
+                           Grid.Column="1"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="Descripcion"
+                           TextColor="Black"
+                           Grid.Row="0"
+                           Grid.Column="2"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="Precio"
+                           TextColor="Black"
+                           Grid.Row="0"
+                           Grid.Column="3"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="Meropemed"
+                           TextColor="Black"
+                           Grid.Row="1"
+                           Grid.Column="0"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="Agua esteril"
+                           TextColor="Black"
+                           Grid.Row="2"
+                           Grid.Column="0"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="Hidrocortisona"
+                           TextColor="Black"
+                           Grid.Row="3"
+                           Grid.Column="0"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="Hidrocortisona"
+                           TextColor="Black"
+                           Grid.Row="4"
+                           Grid.Column="0"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="Nucleo c.m.p"
+                           TextColor="Black"
+                           Grid.Row="5"
+                           Grid.Column="0"
+                           HorizontalOptions="Center"></Label>
+                    <Image Source="inyeccion1.jpeg"
+                           Grid.Row="1"
+                           Grid.Column="1"
+                           Aspect="AspectFit"
+                           WidthRequest="80"
+                           HeightRequest="80"></Image>
+                    <Image Source="inyeccion2.jpeg"
+                           Grid.Row="2"
+                           Grid.Column="1"
+                           Aspect="AspectFit"
+                           WidthRequest="80"
+                           HeightRequest="80"></Image>
+                    <Image Source="inyeccion3.jpeg"
+                           Grid.Row="3"
+                           Grid.Column="1"
+                           Aspect="AspectFit"
+                           WidthRequest="80"
+                           HeightRequest="80"></Image>
+                    <Image Source="inyeccion4.jpeg"
+                           Grid.Row="4"
+                           Grid.Column="1"
+                           Aspect="AspectFit"
+                           WidthRequest="80"
+                           HeightRequest="80"></Image>
+                    <Image Source="inyeccion5.jpeg"
+                           Grid.Row="5"
+                           Grid.Column="1"
+                           Aspect="AspectFit"
+                           WidthRequest="80"
+                           HeightRequest="80"></Image>
+                    <Label Text="1g de polvo"
+                           TextColor="Black"
+                           Grid.Row="1"
+                           Grid.Column="2"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="10l"
+                           TextColor="Black"
+                           Grid.Row="2"
+                           Grid.Column="2"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="100g"
+                           TextColor="Black"
+                           Grid.Row="3"
+                           Grid.Column="2"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="500g"
+                           TextColor="Black"
+                           Grid.Row="4"
+                           Grid.Column="2"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="100g"
+                           TextColor="Black"
+                           Grid.Row="5"
+                           Grid.Column="2"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="66.7"
+                           TextColor="Black"
+                           Grid.Row="1"
+                           Grid.Column="3"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="100.7"
+                           TextColor="Black"
+                           Grid.Row="2"
+                           Grid.Column="3"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="80.10"
+                           TextColor="Black"
+                           Grid.Row="3"
+                           Grid.Column="3"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="30.20"
+                           TextColor="Black"
+                           Grid.Row="4"
+                           Grid.Column="3"
+                           HorizontalOptions="Center"></Label>
+                    <Label Text="30.00"
+                           TextColor="Black"
+                           Grid.Row="5"
+                           Grid.Column="3"
+                           HorizontalOptions="Center"></Label>
+                </Grid>
+                <Frame BackgroundColor="Blue"
+                       CornerRadius="15">
+                    <Label Text="MEDICAMENTOS"
+                           TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center">
+
+                    </Label>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

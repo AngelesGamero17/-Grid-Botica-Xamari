@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Botica.Home"
+             Title = "INICIO"
+             Background="#24BFF2"
+             Padding="25">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="BIENVENIDOS A LA BOTICA"
+                   FontSize="50"
+                   TextColor="White"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image Source="botiquero.jpeg"
+                           Grid.Row="4"
+                           Grid.Column="1"
+                           Aspect="AspectFit"
+                           WidthRequest="250"
+                           HeightRequest="250"></Image>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
